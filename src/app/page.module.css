@@ -107,6 +107,35 @@
 .logo {
   position: relative;
 }
+
+.editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.editor textarea {
+  width: -webkit-fill-available;
+  height: 20vh;
+  margin-bottom: 5vh;
+}
+
+.sectionTitle {
+  width: fit-content;
+  font-size: 2em;
+  padding: 8px;
+  background: linear-gradient(0deg, #000 0%, #1B6B03 100%);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.previewer {
+  background: #fff url(/dark_background.jpg) center center/cover no-repeat;
+}
+
+.previewer img {
+  max-width: 90%;
+  margin: 30px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
